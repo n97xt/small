@@ -21,6 +21,7 @@ make flags:
     // in unblocking thread:
     cond.notif_done();
 */
+
 class condition_done {
 	std::mutex mtx;
 	std::condition_variable cv;
